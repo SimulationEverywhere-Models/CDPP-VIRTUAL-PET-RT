@@ -1,0 +1,27 @@
+#     ./cd++ [-ehlLmotdpPDvbfrsqw]
+#     e: events file (default: none)
+#     h: show this help
+#     l: logs all messages to a log file (default: /dev/null)
+#     L[I*@XYDS]: log modifiers (logs only the specified messages)
+#     m: model file (default : model.ma)
+#     o: output (default: /dev/null)
+#     t: stop time (default: Infinity)
+#     d: set tolerance used to compare real numbers
+#     p: print extra info when the parsing occurs (only for cells models)
+#     D: partition details file (default: /dev/null)
+#     P: parallel partition file (will run parallel simulation)
+#     v: evaluate debug mode (only for cells models)
+#     b: bypass the preprocessor (macros are ignored)
+#     f: flat debug mode (only for flat cells models)
+#     r: debug cell rules mode (only for cells models)
+#     s: show the virtual time when the simulation ends (on stderr)
+#     q: use quantum to compute cell values
+#     y: use dynamic quantum (strategy 1) to compute cells values
+#     Y: use dynamic quantum (strategy 2) to compute cells values
+#     w: sets the width and precision (with form xx-yy) to show numbers
+#./cd++ -etestSE1.txt -mSE.ma -ooutSE1.
+#./cd++ -etestSS2.txt -mSS.ma -ooutSS2.
+#./cd++ -etestSD2.txt -mSD.ma -ooutSD2.
+#./cd++ -etestSJ2.txt -mSJ.ma -ooutSJ2.
+./cd++ -etestDev2.txt -mdevicho.ma -ooutDev2.
+exit

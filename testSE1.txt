@@ -1,0 +1,5 @@
+00:00:10:00 inDesecho  1
+01:00:00:00 inDesecho  1
+05:00:30:00 inDesecho  1
+06:00:31:00 inLimpieza 1
+06:00:33:10 inDesecho  1

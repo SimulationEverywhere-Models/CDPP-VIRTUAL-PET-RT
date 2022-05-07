@@ -1,0 +1,9 @@
+00:01:00:00 inNutrientes   1
+00:02:00:00 inJuego        1
+00:10:00:00 inJuego        1
+105:00:00:00 inRemedio     1
+110:02:00:00 inJuego       1
+113:10:00:00 inJuego       1
+116:10:00:00 inNutrientes  1
+
+
